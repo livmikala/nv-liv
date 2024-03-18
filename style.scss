@@ -1,10 +1,15 @@
+@use 'variabler';
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
+body {
+    background-color: variabler.$baggrund;
+}
+
 header {
-background-color: ;
     nav {
         ul {
             li{
