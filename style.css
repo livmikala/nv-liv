@@ -34,4 +34,8 @@ header nav ul li a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-decoration: none;
   color: #050505;
+}
+
+main {
+  background-color: #DFE7DE;
 }/*# sourceMappingURL=style.css.map */
