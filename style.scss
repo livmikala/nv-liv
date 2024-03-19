@@ -7,6 +7,8 @@
 
 body {
     background-color: variabler.$baggrund;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 header {
@@ -40,6 +42,28 @@ header {
     }
 }
 
-main {
-    background-color: variabler.$baggrund;
+
+.velkommen {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+.velkommen img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.undersider {
+    display: flex;
+    flex-direction: column;
+    background-color: variabler.$hvid;
 }
