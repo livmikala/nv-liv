@@ -8,12 +8,15 @@
 body {
     background-color: variabler.$baggrund;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15em;
+    margin-top: 0em;
+    margin-bottom: 0em;
 
 }
 
 header {
    background-color: variabler.$hvid;
-   height: 10em;
+   height: 15em;
    display: flex;
    flex-direction: row;
 
@@ -47,14 +50,16 @@ header {
     display: grid;
     place-items: center;
     height: 100vh;
+}
 
 .velkommen img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
 
 }
     
-}
+
 
 h1 {
     display: flex;
@@ -64,6 +69,8 @@ h1 {
 
 .undersider {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: variabler.$hvid;
+    width: 100em;
+    margin: 2em;
 }
