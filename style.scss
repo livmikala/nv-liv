@@ -23,7 +23,7 @@ header {
     nav {
         margin-top: auto;
         margin: auto;
-        margin-bottom: 0.5em;
+        margin-bottom: 1em;
         ul {
             list-style-type: none;
             padding: 0;
@@ -64,13 +64,4 @@ header {
 h1 {
     display: flex;
     justify-content: center;
-
-}
-
-.undersider {
-    display: flex;
-    flex-direction: row;
-    background-color: variabler.$hvid;
-    width: 100em;
-    margin: 2em;
 }

@@ -20,7 +20,7 @@ header {
 header nav {
   margin-top: auto;
   margin: auto;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 header nav ul {
   list-style-type: none;
@@ -55,12 +55,4 @@ header nav ul li a {
 h1 {
   display: flex;
   justify-content: center;
-}
-
-.undersider {
-  display: flex;
-  flex-direction: row;
-  background-color: #ffffff;
-  width: 100em;
-  margin: 2em;
 }/*# sourceMappingURL=style.css.map */

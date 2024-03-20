@@ -1,0 +1,9 @@
+@use 'variabler';
+
+@mixin forside-knap {
+    display: inline-block;
+    background-color: variabler.$lyserød;
+    width: 8em;
+    
+
+}
