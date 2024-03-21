@@ -75,3 +75,21 @@ h1 {
     width: 80%;
     margin: 1em;
 }
+
+.forsideboks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.boks {
+    width: 275px;
+    height: 350px;
+    background-color: variabler.$hvid;
+    border-radius: 10px;
+}
+
+.støtlokaltboks {
+    border: 5px solid variabler.$affald;
+}
