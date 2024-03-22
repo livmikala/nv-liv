@@ -41,10 +41,7 @@ header {
             margin: 0;
             li{
                 display: inline;
-                margin-right: 10em;
-                &:last-child{
-                    margin-right: 0;
-                }
+                margin: 0 8em;
                 a{
                   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                   text-decoration: none;
@@ -188,3 +185,61 @@ img {
 }
 }
 
+/*Styling af lokaltside*/
+
+.lokalt-h1 {
+    margin-top: 0.8em;
+}
+
+.lokalttekst {
+    font-size: 20px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.rentemestervej {
+    
+    div {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2em;
+
+      p {
+    width: 20em;
+    margin-top: 1em;
+    font-size: 18px;
+      }
+
+      img {
+        margin-left: 2em;
+      }
+    }
+}
+
+/*styling af for familier*/
+
+.familie-h1 {
+    margin-top: 0.8em;
+}
+
+.familieliv {
+    div {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2em;
+
+      p {
+    width: 25em;
+    margin-top: 1em;
+    font-size: 18px;
+      }
+
+      img {
+        margin-right: 2em;
+        margin-top: 1em;
+      }
+    }
+}

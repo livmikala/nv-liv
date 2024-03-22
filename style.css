@@ -40,10 +40,7 @@ header nav ul {
 }
 header nav ul li {
   display: inline;
-  margin-right: 10em;
-}
-header nav ul li:last-child {
-  margin-right: 0;
+  margin: 0 8em;
 }
 header nav ul li a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -165,4 +162,52 @@ footer .kontakt {
   color: #536e47;
   text-align: center;
   margin: 2em;
+}
+
+/*Styling af lokaltside*/
+.lokalt-h1 {
+  margin-top: 0.8em;
+}
+
+.lokalttekst {
+  font-size: 20px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.rentemestervej div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+.rentemestervej div p {
+  width: 20em;
+  margin-top: 1em;
+  font-size: 18px;
+}
+.rentemestervej div img {
+  margin-left: 2em;
+}
+
+/*styling af for familier*/
+.familie-h1 {
+  margin-top: 0.8em;
+}
+
+.familieliv div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+.familieliv div p {
+  width: 25em;
+  margin-top: 1em;
+  font-size: 18px;
+}
+.familieliv div img {
+  margin-right: 2em;
+  margin-top: 1em;
 }/*# sourceMappingURL=style.css.map */
