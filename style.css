@@ -75,10 +75,26 @@ h1 {
 }
 
 .boks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 275px;
   height: 350px;
   background-color: #ffffff;
   border-radius: 10px;
+}
+.boks img {
+  width: 225px;
+  height: auto;
+}
+.boks h3 {
+  padding-top: 2em;
+  font-size: 23px;
+}
+.boks a {
+  text-decoration: none;
+  color: #050505;
 }
 
 .støtlokaltboks {
