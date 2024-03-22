@@ -99,6 +99,7 @@ h1 {
   height: 350px;
   background-color: #ffffff;
   border-radius: 10px;
+  margin-bottom: 3em;
 }
 .boks img {
   width: 225px;
@@ -129,4 +130,9 @@ h1 {
 
 .genbrugsboks {
   border: 5px solid #536e47;
+}
+
+footer {
+  height: 10em;
+  background-color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
