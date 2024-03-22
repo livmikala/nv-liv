@@ -65,9 +65,6 @@ header {
 
 }
 
-
-
-
 .velkommen {
     display: grid;
     justify-items: center;
@@ -134,7 +131,7 @@ h1 {
 }
 
 .støtlokaltboks {
-    border: 5px solid variabler.$affald;
+    border: 5px solid variabler.$lokalt;
 }
 
 .familieboks {
