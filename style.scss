@@ -108,6 +108,7 @@ h1 {
     height: 350px;
     background-color: variabler.$hvid;
     border-radius: 10px;
+    margin-bottom: 3em;
 
     img {
         width: 225px;
@@ -126,7 +127,6 @@ h1 {
     color: variabler.$tekst;
     @include mixin.forside-knap;
     margin-top: 1.5em;
-    
         
 }
 
@@ -140,4 +140,12 @@ h1 {
 
 .genbrugsboks {
     border: 5px solid variabler.$genbrug;
+}
+
+footer {
+    height: 10em;
+    background-color: variabler.$hvid;
+    nav {
+        
+    }
 }
