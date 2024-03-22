@@ -9,10 +9,20 @@
 body {
     background-color: variabler.$baggrund;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 20em;
+    margin: 12em;
     margin-top: 0em;
     margin-bottom: 0em;
 
+}
+
+.tema {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 0.4em;
+    padding: 0.4em;
+    color: variabler.$genbrug;
+    border: 1px solid variabler.$pink;
 }
 
 header {
@@ -44,7 +54,18 @@ header {
             }
         }
     }
+    
 }
+
+.logodesktop {
+    width: 28em;
+    margin: auto;
+    display: block;
+   
+
+}
+
+
 
 
 .velkommen {
@@ -93,11 +114,11 @@ h1 {
 
     img {
         width: 225px;
-        height: auto;
+        height: 160px;
     }
 
     h3 {
-        padding-top: 2em;
+        padding-top: 1.5em;
         font-size: 23px;
     }
        
@@ -106,10 +127,20 @@ h1 {
 .boks a {
     text-decoration: none;
     color: variabler.$tekst;
-    @include forside-knap($pink, $lyserød);
+    @include mixin.forside-knap;
+    margin-top: 1.5em;
+    
         
 }
 
 .støtlokaltboks {
     border: 5px solid variabler.$affald;
+}
+
+.familieboks {
+    border: 5px solid variabler.$famile;
+}
+
+.genbrugsboks {
+    border: 5px solid variabler.$genbrug;
 }

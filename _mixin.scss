@@ -1,10 +1,7 @@
-$lyserød: #ffebf8;
-$pink: #e5bbd6;
 
-@mixin forside-knap($pink, $lyserød) {
-    padding: 2em 3em;
-    background-color: $lyserød;
-    border: $pink;
-    border-radius: 5px;
-    width: 8em;
+@mixin forside-knap {
+    padding: 0.8em 1.8em;
+    background-color: #ffebf8;
+    border: 2px solid #e5bbd6;
+    border-radius: 10px;
 }
