@@ -1,9 +1,10 @@
-@use 'variabler';
+$lyserød: #ffebf8;
+$pink: #e5bbd6;
 
-@mixin forside-knap {
-    display: inline-block;
+@mixin forside-knap($pink, $lyserød) {
+    padding: 2em 3em;
     background-color: variabler.$lyserød;
+    border: variabler.$pink;
+    border-radius: 5px;
     width: 8em;
-    
-
 }
