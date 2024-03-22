@@ -13,6 +13,15 @@ body {
     margin-top: 0em;
     margin-bottom: 0em;
 
+    @media only screen and (max-width: variabler.$tablet-screen) {
+        margin: variabler.$tablet-margin;
+        
+    }
+
+    @media only screen and (max-width: variabler.$mobile-screen) {
+        margin: variabler.$mobile-margin;
+    }
+
 }
 
 .tema {
@@ -42,6 +51,7 @@ header {
             li{
                 display: inline;
                 margin: 0 8em;
+                
                 a{
                   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                   text-decoration: none;
@@ -54,12 +64,12 @@ header {
     
 }
 
+
+
 .logodesktop {
     width: 28em;
     margin: auto;
     display: block;
-   
-
 }
 
 .velkommen {
@@ -116,8 +126,17 @@ h1 {
         padding-top: 1.5em;
         font-size: 23px;
     }
-       
+    
 }
+@media only screen and (max-width: variabler.$tablet-screen) {
+        .boks {
+            display: flex;
+            flex-direction: row;
+        }
+        
+    }
+
+   
 
 .boks a {
     text-decoration: none;
@@ -148,7 +167,7 @@ footer {
         ul {
             list-style-type: none;
             text-align: center;
-            p {
+            h4 {
                 color: variabler.$genbrug;
                 font-weight: bold;
                 margin-bottom: 0.5em;

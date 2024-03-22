@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*responsive variabler*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,6 +11,16 @@ body {
   margin: 12em;
   margin-top: 0em;
   margin-bottom: 0em;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 1em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    margin: 0em;
+  }
 }
 
 .tema {
@@ -107,6 +118,12 @@ h1 {
   font-size: 23px;
 }
 
+@media only screen and (max-width: 768px) {
+  .boks {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .boks a {
   text-decoration: none;
   color: #050505;
@@ -140,7 +157,7 @@ footer nav ul {
   list-style-type: none;
   text-align: center;
 }
-footer nav ul p {
+footer nav ul h4 {
   color: #536e47;
   font-weight: bold;
   margin-bottom: 0.5em;
