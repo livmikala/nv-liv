@@ -145,7 +145,30 @@ h1 {
 footer {
     height: 10em;
     background-color: variabler.$hvid;
+
     nav {
-        
+        margin: 2em;
+
     }
+    
+.footerboks {
+    display: flex;
+    justify-content: center;
+    
 }
+
+img {
+    margin: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.kontakt {
+    color: variabler.$genbrug;
+    text-align: center;
+    margin: 2em;
+   
+
+}
+}
+

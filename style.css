@@ -135,4 +135,21 @@ h1 {
 footer {
   height: 10em;
   background-color: #ffffff;
+}
+footer nav {
+  margin: 2em;
+}
+footer .footerboks {
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  margin: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+footer .kontakt {
+  color: #536e47;
+  text-align: center;
+  margin: 2em;
 }/*# sourceMappingURL=style.css.map */
